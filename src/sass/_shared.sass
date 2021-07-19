@@ -1,0 +1,36 @@
+%template-section-item
+    padding: .5rem
+    min-height: 40px
+
+%template-action-effect
+    &:hover,
+    &:active
+        box-shadow: 0 0 4px 0 var(--color-line)
+
+.section, 
+.section--check,
+.section--select, 
+.section--select--multiple,
+.group
+    transition: 1s
+    padding: 1.4rem
+    box-shadow: 0 0 2px 0 var(--color-section), 8px 12px 0px 0 var(--color-section)
+
+select
+    width: 100%
+
+select:focus,
+input:focus
+    box-shadow: 0 0 4px 0 var(--color-line)
+
+
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+
+html
+    --color-line: #00ecff
+    --color-line-error: #ff0000
+    --color-dis: #00a8ff2b
+    --color-section: #00a8ff
